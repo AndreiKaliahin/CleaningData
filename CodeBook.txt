@@ -3,6 +3,7 @@
 =================================================================
 "Subject"
 	1 .. 30 - volunteers within an age bracket of 19-48 years
+
 "Activity"
 	Activities which were performed by volunteers
 	* WALKING
@@ -13,194 +14,352 @@
 
 	* STANDING
 	* LAYING 
+
 "tBodyAcc_mean_X_Avg". Real.
 	Average of means of time domain signals by X - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyAcc_mean_Y_Avg". Real.
 	Average of means of time domain signals by Y - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyAcc_mean_Z_Avg". Real.
 	Average of means of time domain signals by Z - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyAcc_std_X_Avg". Real.
 	Average of standart deviations of time domain signals by X - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts                 
+
 "tBodyAcc_std_Y_Avg". Real.
 	Average of standart deviations of time domain signals by Y - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyAcc_std_Z_Avg". Real.
 	Average of standart deviations of time domain signals by Z - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tGravityAcc_mean_X_Avg". Real.
 	Average of means of time domain signals by X - Axis for every subject every activity which come from the accelerometer for "Gravity"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts               
+
 "tGravityAcc_mean_Y_Avg". Real.
 	Average of means of time domain signals by Y - Axis for every subject every activity which come from the accelerometer for "Gravity"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tGravityAcc_mean_Z_Avg". Real.
 	Average of means of time domain signals by Z - Axis for every subject every activity which come from the accelerometer for "Gravity"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tGravityAcc_std_X_Avg". Real.
 	Average of standart deviations of time domain signals by X - Axis for every subject every activity which come from the accelerometer for "Gravity"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts                
+
 "tGravityAcc_std_Y_Avg". Real.
 	Average of standart deviations of time domain signals by Y - Axis for every subject every activity which come from the accelerometer for "Gravity"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tGravityAcc_std_Z_Avg". Real.
 	Average of standart deviations of time domain signals by Z - Axis for every subject every activity which come from the accelerometer for "Gravity"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyAccJerk_mean_X_Avg". Real.
 	Average of means of time domain signals by X - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals            
+
 "tBodyAccJerk_mean_Y_Avg". Real.
 	Average of means of time domain signals by Y - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals    
+
 "tBodyAccJerk_mean_Z_Avg". Real.
 	Average of means of time domain signals by Z - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals    
+
 "tBodyAccJerk_std_X_Avg". Real.
 	Average of standart deviations of time domain signals by X - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals                   
+
 "tBodyAccJerk_std_Y_Avg". Real.
 	Average of standart deviations of time domain signals by Y - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyAccJerk_std_Z_Avg". Real.
 	Average of standart deviations of time domain signals by Z - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyGyro_mean_X_Avg". Real.
 	Average of means of time domain signals by X - Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyGyro_mean_Y_Avg". Real.
 	Average of means of time domain signals by Y - Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyGyro_mean_Z_Avg". Real.
 	Average of means of time domain signals by Z - Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyGyro_std_X_Avg". Real.
 	Average of standart deviations of time domain signals by X - Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyGyro_std_Y_Avg". Real.
 	Average of standart deviations of time domain signals by Y - Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyGyro_std_Z_Avg". Real.
 	Average of standart deviations of time domain signals by Z - Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "tBodyGyroJerk_mean_X_Avg". Real.
 	Average of means of time domain signals by X - Axis for every subject every activity which come from the gyroscope for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyGyroJerk_mean_Y_Avg". Real.
 	Average of means of time domain signals by Y - Axis for every subject every activity which come from the gyroscope for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyGyroJerk_mean_Z_Avg". Real.
 	Average of means of time domain signals by Z - Axis for every subject every activity which come from the gyroscope for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyGyroJerk_std_X_Avg". Real.
 	Average of standart deviations of time domain signals by X - Axis for every subject every activity which come from the gyroscope for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyGyroJerk_std_Y_Avg". Real.
 	Average of standart deviations of time domain signals by Y - Axis for every subject every activity which come from the gyroscope for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyGyroJerk_std_Z_Avg". Real.
 	Average of standart deviations of time domain signals by Y - Axis for every subject every activity which come from the gyroscope for "Body"* part derived in time of signal (Jerk**).
 	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyAccMag_mean_Avg". Real.
 	Average of means of magnitude* time domain signals for every subject every activity which come from the accelerometer for "Body"** part of signal.
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "tBodyAccMag_std_Avg". Real.
 	Average of standart deviations of magnitude* time domain signals for every subject every activity which come from the accelerometer for "Body"** part of signal.
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "tGravityAccMag_mean_Avg". Real.
 	Average of means of magnitude* time domain signals for every subject every activity which come from the accelerometer for "Gravity"** part of signal.
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "tGravityAccMag_std_Avg". Real.
 	Average of standart deviations of magnitude* time domain signals by for every subject every activity which come from the accelerometer for "Gravity"** part of signal.
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "tBodyAccJerkMag_mean_Avg". Real.
 	Average of means of magnitude* time domain signals for every subject every activity which come from the accelerometer for "Body"** part derived in time of signal (Jerk***).
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyAccJerkMag_std_Avg". Real.
 	Average of standart deviations of magnitude* time domain signals for every subject every activity which come from the accelerometer for "Body"** part derived in time of signal (Jerk***).
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyGyroMag_mean_Avg". Real.
 	Average of means of magnitude* time domain signals for every subject every activity which come from the gyroscope for "Body"** part of signal.
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "tBodyGyroMag_std_Avg". Real.
 	Average of standart deviations of magnitude* time domain signals for every subject every activity which come from the gyroscope for "Body"** part of signal.
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "tBodyGyroJerkMag_mean_Avg". Real.
 	Average of means of magnitude* time domain signals for every subject every activity which come from the gyroscope for "Body"** part derived in time of signal (Jerk***).
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "tBodyGyroJerkMag_std_Avg". Real.
 	Average of standart deviations of magnitude* time domain signals for every subject every activity which come from the gyroscope for "Body"** part derived in time of signal (Jerk***).
 	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
 	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "fBodyAcc_mean_X_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X-Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAcc_mean_Y_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Y-Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAcc_mean_Z_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Z-Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAcc_std_X_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAcc_std_Y_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Y - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAcc_std_Z_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Z - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAcc_meanFreq_X_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X-Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAcc_meanFreq_Y_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Y-Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAcc_meanFreq_Z_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Z-Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAccJerk_mean_X_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAccJerk_mean_Y_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Y - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAccJerk_mean_Z_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Z - Axis for every subject every activity which come from the accelerometer for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAccJerk_std_X_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "fBodyAccJerk_std_Y_Avg". Real.
+	verage of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Y - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "fBodyAccJerk_std_Z_Avg". Real.
+	verage of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Z - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "fBodyAccJerk_meanFreq_X_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X - Axis for every subject every activity which come from the accelerometer for "Body"* part derived in time of signal (Jerk**).
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "fBodyGyro_mean_X_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyGyro_mean_Y_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Y-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyGyro_mean_Z_Avg". Real.
+	Average of means of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Z-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyGyro_std_X_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyGyro_std_Y_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Y-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyGyro_std_Z_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Z-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyGyro_meanFreq_X_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by X-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyGyro_meanFreq_Y_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Y-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyGyro_meanFreq_Z_Avg". Real.
+	Average of standart deviations of frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) by Z-Axis for every subject every activity which come from the gyroscope for "Body"* part of signal.
+	* Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts
+
 "fBodyAccMag_mean_Avg". Real.
+	Average of means of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) for every subject every activity which come from the accelerometer for "Body"** part of signal.
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "fBodyAccMag_std_Avg". Real.
+	Average of standart deviation of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) for every subject every activity which come from the accelerometer for "Body"** part of signal.
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "fBodyAccMag_meanFreq_Avg". Real.
+	Average of means of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) for every subject every activity which come from the accelerometer for "Body"** part of signal.
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+
 "fBodyBodyAccJerkMag_mean_Avg". Real.
+	Average of means of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals)  for every subject every activity which come from the accelerometer for "Body"** part derived in time of signal (Jerk***).
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "fBodyBodyAccJerkMag_std_Avg". Real.
+	Average of standart deviations of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) for every subject every activity which come from the accelerometer for "Body"** part derived in time of signal (Jerk***).
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "fBodyBodyAccJerkMag_meanFreq_Avg". Real.
+	Average of means of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals)  for every subject every activity which come from the accelerometer for "Body"** part derived in time of signal (Jerk***).
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 "fBodyBodyGyroMag_mean_Avg". Real.
+
 "fBodyBodyGyroMag_std_Avg". Real.
+
 "fBodyBodyGyroMag_meanFreq_Avg". Real.
+
 "fBodyBodyGyroJerkMag_mean_Avg". Real.
+
 "fBodyBodyGyroJerkMag_std_Avg". Real.
+
 "fBodyBodyGyroJerkMag_meanFreq_Avg". Real.
-=================================================================
+
 "angletBodyAccMean_gravity_Avg". Real.
+
 "angletBodyAccJerkMean_gravityMean_Avg". Real.
+
 "angletBodyGyroMean_gravityMean_Avg". Real.
+
 "angletBodyGyroJerkMean_gravityMean_Avg". Real.
+
 "angleX_gravityMean_Avg". Real.
+
 "angleY_gravityMean_Avg". Real.
+
 "angleZ_gravityMean_Avg". Real.
