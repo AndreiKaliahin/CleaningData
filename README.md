@@ -101,7 +101,7 @@ Extracting data from main dataset which contains data conserning mean()\Mean or 
 Rename main dataset columns from V1,V2 ... to readable and meaningful names
 
 ##### Converting activity_id to Activity name
-Using join("left") function were created new variable which contains every single activity_id with corresponding meaningful name.  
+Using left_join() function were created new variable which contains every single activity_id with corresponding meaningful name.  
 > activity<-join(activity_id, activity_labels, type="left")  
 
 Rename Subject and Activity data frames

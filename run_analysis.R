@@ -72,7 +72,7 @@ run_analysis <- function(){
         names(requested_x)<-requested_features[,2]
         
         ##Creating new variable which contains every single activity_id with corresponding meaningful name.
-        activity<-join(activity_id, activity_labels, type="left")
+        activity<-left_join(activity_id, activity_labels)
         
         ##After merging data, remove all unnecessary source data variables
         rm(x, activity_id, activity_labels, features)
