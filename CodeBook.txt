@@ -339,27 +339,55 @@
 	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 
 "fBodyBodyGyroMag_mean_Avg". Real.
+	Average of means of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) for every subject every activity which come from the gyroscope for "Body"** part of signal.
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 
 "fBodyBodyGyroMag_std_Avg". Real.
+	Average of standart deviation of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) for every subject every activity which come from the gyroscope for "Body"** part of signal.
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 
 "fBodyBodyGyroMag_meanFreq_Avg". Real.
+	Average of means of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) for every subject every activity which come from the gyroscope for "Body"** part of signal.
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
 
 "fBodyBodyGyroJerkMag_mean_Avg". Real.
+	Average of means of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals)  for every subject every activity which come from the gyroscope for "Body"** part derived in time of signal (Jerk***).
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 
 "fBodyBodyGyroJerkMag_std_Avg". Real.
+	Average of standart deviations of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals) for every subject every activity which come from the gyroscope for "Body"** part derived in time of signal (Jerk***).
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 
 "fBodyBodyGyroJerkMag_meanFreq_Avg". Real.
+	Average of means of magnitude* frequency domain signals (which were calculated by applying Fast Fourier Transform (FFT) to time domain signals)  for every subject every activity which come from the gyroscope for "Body"** part derived in time of signal (Jerk***).
+	* Using Euclidean norm magnitude of these three-dimensional signals were calculated
+	** Using low pass Butterworth filter with a corner frequency of 0.3 Hz signals from accelerometer were separated to Body and Gravity parts.
+	*** The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 
 "angletBodyAccMean_gravity_Avg". Real.
+	Angle between vectors "tBodyAccMean" and "gravityMean". Calculated by function angle().
 
 "angletBodyAccJerkMean_gravityMean_Avg". Real.
+	Angle between vectors "tBodyAccJerkMean" and "gravityMean". Calculated by function angle().
 
 "angletBodyGyroMean_gravityMean_Avg". Real.
+	Angle between vectors "tBodyGyroMean" and "gravityMean". Calculated by function angle().
 
 "angletBodyGyroJerkMean_gravityMean_Avg". Real.
+	Angle between vectors "tBodyGyroJerkMean" and "gravityMean". Calculated by function angle().
 
 "angleX_gravityMean_Avg". Real.
+	Angle between vectors "X-Axis" and "gravityMean". Calculated by function angle().
 
 "angleY_gravityMean_Avg". Real.
+	Angle between vectors "Y-Axis" and "gravityMean". Calculated by function angle().
 
 "angleZ_gravityMean_Avg". Real.
+	Angle between vectors "Z-Axis" and "gravityMean". Calculated by function angle().
