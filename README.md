@@ -102,7 +102,7 @@ Rename main dataset columns from V1,V2 ... to readable and meaningful names
 
 ##### Converting activity_id to Activity name
 Using left_join() function were created new variable which contains every single activity_id with corresponding meaningful name.  
-> activity<-join(activity_id, activity_labels, type="left")  
+> activity<-left_join(activity_id, activity_labels)  
 
 Rename Subject and Activity data frames
 
